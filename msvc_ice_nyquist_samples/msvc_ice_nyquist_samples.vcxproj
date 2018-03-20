@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26305.1-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props" Condition="Exists('..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26305.1-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props')" />
+  <Import Project="..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26310-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props" Condition="Exists('..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26310-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props')" />
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -114,7 +114,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
@@ -164,6 +164,6 @@
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26305.1-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26305.1-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props'))" />
+    <Error Condition="!Exists('..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26310-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\VisualCppTools.Community.Daily.VS2017Layout.14.13.26310-Pre\build\native\VisualCppTools.Community.Daily.VS2017Layout.props'))" />
   </Target>
 </Project>
